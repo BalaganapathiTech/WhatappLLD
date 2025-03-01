@@ -19,7 +19,7 @@
 **📥 Installation & Setup**
 1️⃣ **Clone the Repository**  
 ```bash
-git clone https://github.com/BalaganapathiTech/WhatsappLLD.git
+git clone [https://github.com/BalaganapathiTech/WhatsappLLD.git](https://github.com/BalaganapathiTech/WhatappLLD)
 cd WhatsappLLD
 ```
 2️⃣ **Setup MySQL Database**
