@@ -1,8 +1,3 @@
-**WhatsApp Clone - Secure Messaging System (Java, JDBC, MySQL)**
-🚀 A simple WhatsApp-like messaging system with **End-to-End Encryption (AES)** using **Java, JDBC, and MySQL**.
-
----
-
 **📌 Features**
 ✅ **User Registration** – Users can sign up with a username & password.  
 ✅ **End-to-End Encrypted Messaging** – Messages are securely stored & only readable by the intended recipient.  
@@ -24,31 +19,23 @@
 **📥 Installation & Setup**
 1️⃣ **Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/whatsapp-clone.git
-cd whatsapp-clone
+git clone https://github.com/BalaganapathiTech/WhatsappLLD.git
+cd WhatsappLLD
 ```
 2️⃣ **Setup MySQL Database**
-- Create a database named `whatsapp_db`.
+- Create a database named `WhatsAppDB`.
 - Run the provided SQL script (`schema.sql`) to set up tables.
 
 3️⃣ **Configure Database Connection**
 - Update `DBConfig.java` with your MySQL credentials:
 ```java
-private static final String URL = "jdbc:mysql://localhost:3306/whatsapp_db";
-private static final String USER = "your_username";
+private static final String URL = "jdbc:mysql://localhost:3306/WhatsAppDB";
+private static final String USER = "root";
 private static final String PASSWORD = "your_password";
 ```
 
-4️⃣ **Run the Application**
-```bash
-javac -d . src/*.java
-java Practice.whatsapp.Main
-```
-
----
-
 **📌 How It Works**
-### **1️⃣ User Registration**
+**1️⃣ User Registration**
 ```plaintext
 Enter Username: BalaGanapathi
 Enter Password: ********
@@ -116,6 +103,6 @@ CREATE TABLE messages (
 ---
 
 **📜 License**
-This project is **open-source** and available under the **MIT License**.
+This project is **open-source**
 
 📬 **Questions?** Feel free to raise an issue or contact me! 🚀
